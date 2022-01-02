@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+
+
+    <!-- CSS way 01: Style tag -->
+    <!-- <style>
+        body {
+            color: brown; 
+        }
+    </style> -->
+
+    <!-- CSS way 03: External use (Industry use) -->
+    <link href="styles.css" rel="stylesheet" />
+
 </head>
+
 <body>
 
     <h1>Varun's component library</h1>
+    <!-- CSS way 02: Style tag -->
+    <!-- <h1 style="color:red">Varun's component library</h1> -->
+
     <p>I am attending neog.camp and I want to make a library which would make all my projects look good consistent.</p>
 
-    <hr >
+    <hr>
 
     <h2>@typography</h2>
 
     <h2> This is the second largest heading </h2>
 
-    <small>This is relatively small text</small>
 
-    <hr >
+
+    <p>Let me show you the normal text.This is free flowing and will wrap at the end like a paragrph</p>
+
+    <p>This paragrapg will have a <strong>bold</strong> test</p>
+
+    <small>This is relatively small text</small>
+    
+
+    <hr>
 
     <h2>fluid container</h2>
     <div> This is the fluid container and it will go till the end of the page</div>
 
     <h2>center container</h2>
-    <div> This is the Centered container and it will go till the specified width  of the page</div>
+    <div> This is the Centered container and it will go till the specified width of the page</div>
 
-    <hr >
+    <hr>
 
 
     <h2>@links</h2>
@@ -35,14 +59,94 @@
     <a href="/">primary links</a>
     <a href="/">secondary links</a>
 
+    <hr>
 
 
+    <h2>@Lists</h2>
+     
+    <h3>unordered list</h3>
 
 
+    <ul>
+        <li>Item one </li>
+        <li>Item two</li>
+        <li>Item three</li>
 
+    </ul>
 
+    <h3>unordered inline list</h3>
 
+    <ul>
+        <li>inline Item one</li>
+        <li>inline Item two</li>
+        <li>inline Item three</li>
 
-    
+    </ul>
+
+    <h3> reverse ordered list</h3>
+
+    <ol>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>break</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav>
+        <div>iAmBrand</div>
+        <ul>
+            <li>
+                <a href="/">home</a>
+            </li>
+            <li>
+                <a href="/">products</a>
+            </li>
+            <li>
+                <a href="/">about</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <hr>
+    <h2>@header</h2>
+
+    <header>
+        <img src="images/hero2.svg">
+        <h1>heading inside header</h1>
+    </header>
+
+    <hr>
+    <h2>@sections</h2>
+
+    <section>
+        <h3>white section</h3>
+        <p>this will have white background</p>
+    </section>
+
+    <section>
+        <h3>Offwhite section</h3>
+        <p>this will have gray background</p>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer>
+        <div>some small heading inside</div>
+        <ul>
+            <li>socialone</li>
+            <li>socialtwo</li>
+            <li>socialthree</li>
+        </ul>
+    </footer>
+
+    <!-- <div style="height: 30vh" </body> </html> -->
+        
+
 </body>
+
 </html>
