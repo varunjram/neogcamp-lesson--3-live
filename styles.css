@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;700&display=swap');
 
+:root {
+    --primary-color: #a3e635; 
+}
 
 body {
     font-family: 'Spline Sans', sans-serif;
@@ -7,11 +10,30 @@ body {
 
 /* container */
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+    padding: 0rem 1rem;
 }
 
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary {
+    background-color: var(--primary-color);
+    color: #365314;
+    border-radius: .75rem;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.75rem;
+    border: 1px solid
+    
 }
