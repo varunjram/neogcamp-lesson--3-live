@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+
+
+    <!-- CSS way 01: Style tag -->
+    <!-- <style>
+        body {
+            color: brown; 
+        }
+    </style> -->
+
+    <!-- CSS way 03: External use (Industry use) -->
+    <link href="styles1.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <h1>Varun's component library</h1>
+    <!-- CSS way 02: Style tag -->
+    <!-- <h1 style="color:red">Varun's component library</h1> -->
+
+    <p>I am attending neog.camp and I want to make a library which would make all my projects look good consistent.</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h2> This is the second largest heading </h2>
+
+
+
+    <p>Let me show you the normal text.This is free flowing and will wrap at the end like a paragrph</p>
+
+    <p>This paragrapg will have a <strong>bold</strong> test</p>
+
+    <small>This is relatively small text</small>
+
+
+    <hr>
+
+    <h2>fluid container</h2>
+    <div class="container"> This is the fluid container and it will go till the end of the page</div>
+
+    <h2>center container</h2>
+    <div class="container container-center"> This is the Centered container and it will go till the specified width of the page</div>
+
+    <hr>
+
+
+    <h2>@links</h2>
+
+    <a class="link link-primary" href= https://mail.google.com/mail/u/0/?tab=rm&ogbl >primary links</a>
+    <a class="link link-secondary" href="/">secondary links</a>
+
+    <hr>
+
+
+    <h2>@Lists</h2>
+     
+    <h3>unordered list</h3>
+
+    <p>This list will not have bullets</p>
+
+
+    <ul class="list-non-bullet">
+        <li>Item one </li>
+        <li>Item two</li>
+        <li>Item three</li>
+
+    </ul>
+
+    <h3>unordered inline list</h3>
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">inline Item one</li>
+        <li class="list-item-inline">inline Item two</li>
+        <li class="list-item-inline">inline Item three</li>
+
+    </ul>
+
+    <h3> reverse ordered list</h3>
+
+    <ol reversed>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>break</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <hr>
+    <h2>@header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src="images/hero2.svg">
+        <h1 class="hero-heading">Welcome to the future of <span class="heading-inverted">Web Devolopment</span></h1>
+    </header>
+
+    <hr>
+    <h2>@sections</h2>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>this will have white background WIP-This section is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For information about API specifics to Web pages, please see Web APIs and DOM.</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>lime section</h1>
+            <p>this will have lime background
+                WIP-This section is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For information about API specifics to Web pages, please see Web APIs and DOM.
+            </p>
+        </div>
+        
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+
+        <div class="footer-header">
+            some small heading inside
+        </div>
+
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    socialone
+                </li>
+            <li class="list-item-inline">
+                <a class="link " href="/">
+                socialtwo
+            </li>
+            <li class="list-item-inline">
+                <a class="link " href="/">
+                    socialthree
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- <div style="height: 30vh" </body> </html> -->
+        
+
+</body>
+
+</html>
