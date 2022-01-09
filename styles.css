@@ -16,7 +16,12 @@ body {
 
 hr {
     margin: 1.5rem 0rem;
+
+    
 }
+
+/* spaces */
+
 
 /* container */
 .container {
@@ -94,6 +99,7 @@ hr {
 /* header */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
